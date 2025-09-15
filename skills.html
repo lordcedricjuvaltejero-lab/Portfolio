@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio — Skills</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">MyPortfolio</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link active">Skills</a>
+        <a href="workspace.html" class="nav-link">Workspace</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <h1>Skills</h1>
+    <div class="skill-grid">
+      <div class="skill">
+        <h3>Basketball Player </h3>
+        <p>I love playing basketball but I'm not good at it</p>
+      </div>
+      <div class="skill">
+        <h3>Volleyball Player</h3>
+        <p>I love playing basketball but I'm not good at it </p>
+      </div>
+      <div class="skill">
+        <h3>Dancer</h3>
+        <p></p>
+      </div>
+      <div class="skill">
+        <h3>Online Gamer </h3>
+        <p></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year3"></span> MyPortfolio</small>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('year3').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

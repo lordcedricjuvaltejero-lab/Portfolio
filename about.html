@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio — About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">MyPortfolio</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="workspace.html" class="nav-link">Workspace</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container narrow">
+    <section>
+      <h1>About Me</h1>
+      <p>I’m a second -year IT student learning web development. I enjoy building small projects to practice HTML, CSS, and JavaScript. I value my family and friends and I’m working toward my goals through study and practice.</p>
+
+      <h2>Education</h2>
+      <p>Second year — Information Technology</p>
+
+      <h2>Interests</h2>
+      <ul>
+        <li>Web development</li>
+        <li>UI/UX basics</li>
+        <li>Small JS projects and games</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year2"></span> MyPortfolio</small>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('year2').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

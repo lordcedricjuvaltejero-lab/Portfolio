@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">MyPortfolio</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="workspace.html" class="nav-link">Workspace</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Hello — I'm Lord Cedric</h1>
+      <p class="lead">2nd year BSIT student.Learning Web developer. I build simple and useful web projects.</p>
+      <p><a class="btn" href="about.html">Learn more about me</a></p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h3>Featured Project</h3>
+        <p>Portfolio website (this site). Built with plain HTML & CSS — designed to be responsive.</p>
+      </article>
+
+      <article class="card">
+        <h3>Web Apps</h3>
+        <p>Small apps and practice projects: to-do, calculator, and mini-games for learning JS.</p>
+      </article>
+
+      <article class="card">
+        <h3>Contact</h3>
+        <p>Phone: 09655666030<br/>Location: Taping Lagangilang Abra</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> MyPortfolio — Built by Lord Cedric</small>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
